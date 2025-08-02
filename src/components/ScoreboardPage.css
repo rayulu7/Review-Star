@@ -1,0 +1,46 @@
+.scoreboard-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.scoreboard-page h2 {
+  margin-bottom: 20px;
+}
+
+.scoreboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.scoreboard-item {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.rank {
+  font-weight: bold;
+  min-width: 30px;
+}
+
+.name {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.rating {
+  color: gold;
+  font-weight: bold;
+  min-width: 60px;
+}
+
+.count {
+  color: #666;
+}
